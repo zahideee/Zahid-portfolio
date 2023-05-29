@@ -1,0 +1,128 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* nabar design start */
+
+.nav-logo{
+  
+    text-align: left;
+    
+}
+.nav-logo img{
+    width: 200px;
+    height: 100px;
+    
+  
+}
+.nav-heading h1{
+    margin-top: 15px;
+    text-align: center;
+}
+.navbar-menu{
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    background-color: transparent;
+}
+
+/* navbar design end */
+
+/* main design start */
+
+.main .top-pic{
+    position: absolute;
+    right:  100px;
+    top: 20px;
+    transition: transform 3s;
+
+}
+.main .top-pic:hover{
+    width: 300px;
+}
+.main .last-pic{
+    position: absolute;
+    left:  100px;
+    bottom: 20px;
+    transition: transform 3s;
+
+}
+.main .last-pic:hover{
+    width: 300px;
+}
+.cv-btn{
+    width: 150px;
+}
+
+
+/* main design end */
+
+
+/* abm div start */
+.abm img{
+    margin-top: 100px;
+    height: 270px;
+    width: 250px;
+}
+.abm p{
+    text-align: left;
+}
+
+/* abm div end */
+/* <!-- Card row start -->*/
+.card-holder{
+    padding: 1% 5%;
+    
+}
+/*<!-- Card row ends  */
+/* <!-- Achivement contacts start --> */
+.achivement{
+    padding-right:50px ;
+}
+.contact button{
+    width:  150px  ;
+}
+.contacts-link{
+    position: relative;
+}
+.media-button {
+    position: absolute;
+    margin: 30px 50px;
+    
+}
+
+
+/* <!-- Achivement contacts ends --> */
+
+
+/* footer start */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.footer-des{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.footer-des .love{
+    font-size: 1.5rem;
+}
+
+/* footer ends */

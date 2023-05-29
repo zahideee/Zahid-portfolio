@@ -1,0 +1,161 @@
+.card-holder{
+    padding: 1% 1%;
+    
+}
+.card-holder .card{
+    background-color: rgb(157, 161, 165);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    /* height: 600px; */
+      
+}
+.card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img{
+    width: 100px;
+    margin-top: 20px;
+}
+.card-icon img:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+.round-img{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-title{
+    background-color: rgb(90, 87, 78);
+    text-align: center;
+    border-radius: 5px;
+}
+.card-title:hover{
+    box-shadow: 0 3px 5px 3px black;
+}
+.card-title h2{
+    color: white;
+    padding: 5px;
+}
+
+.card-des{
+    margin-left: 30px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.skill-cont{
+    padding-right:45px ;
+
+}
+.skill-cont li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+    /* text-transform: uppercase; */
+
+}
+.skill-cont li::before{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+
+    left: 0;
+    width: 100%;
+    height: 10px;
+    border-radius: 1000px;
+
+    background-color: rgb(86,86,153,.5);
+}
+
+.skill-cont li::after{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+
+    left: 0;
+    width: 0;
+    height: 10px;
+    border-radius: 1000px;
+    background-color: rgb(86,86,153,1);
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.skill-cont li.HTML::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+
+    }
+}
+.skill-cont li.CSS::after{
+    animation-name: CSS;
+}
+@keyframes CSS{
+    to{
+        width: 80%;
+        
+    }
+}
+.skill-cont li.JAVA::after{
+    animation-name: JAVA;
+}
+@keyframes JAVA{
+    to{
+        width: 70%;
+        
+    }
+}
+.skill-cont li.JI::after{
+    animation-name: JI;
+}
+@keyframes JI{
+    to{
+        width: 60%;
+        
+    }
+}
+.skill-cont li.BOOT::after{
+    animation-name: BOOT;
+}
+@keyframes BOOT{
+    to{
+        width: 50%;
+        
+    }
+}
+.skill-cont li.NODE::after{
+    animation-name: NODE;
+}
+@keyframes NODE{
+    to{
+        width: 40%;
+        
+    }
+}
+.skill-cont li.GITHUB::after{
+    animation-name: GITHUB;
+}
+@keyframes GITHUB{
+    to{
+        width: 30%;
+        
+    }
+}
+
+
+/* card div claer */
+.card-holder::after{
+    content: '' ;
+    display: table;
+    clear: both;
+}

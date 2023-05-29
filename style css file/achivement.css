@@ -1,0 +1,53 @@
+.achivement-contact{
+    padding: 1% 7%;
+    background-color: rgb(101, 179, 179);
+    color: white;
+}
+.achivement-contact h2{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    border: none;
+    background-color: #052d2f;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    padding: 15px;
+    width: 100px;
+
+}
+.contacts-link{
+    text-align: center;
+}
+.media-button .btn{
+    border: none;
+    border-radius: 25PX;
+    cursor: pointer;
+    font-size: 32PX;
+    padding: 5PX;
+    margin: 10PX;
+    width: 50PX;
+}
+.media-button .btn:hover{
+    background-color: gray;
+}
+
+/* achivement-contact div claer */
+.achivement-contact::after{
+    content: '' ;
+    display: table;
+    clear: both;
+}

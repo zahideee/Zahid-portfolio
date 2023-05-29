@@ -1,0 +1,98 @@
+
+
+.main{
+    padding: 200px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.main img{
+    width: 220px;
+    
+}
+.main .top-pic{
+    position: absolute;
+    right: 10px;
+    top:20px;
+    transition: transform 2s;
+
+}
+.main .top-pic:hover{
+    transform: rotate(360deg);
+}
+.main h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+}
+.main p{
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    width: 90%;
+}
+.main .last-pic{
+    position: absolute;
+    left:  10px;
+    bottom: 20px;
+    transition: transform 2s;
+
+}
+.main .last-pic:hover{
+    transform: rotate(360deg);
+}
+
+/* this for main div clear */
+.main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* abm start */
+.abm{
+    background-color:#39a4ac;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.img1{
+    height: 220px;
+    width:200px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.img1:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.abm p{
+    text-align: center;
+}
+.abm a{
+    font-size: 1.2rem;
+}
+.cv-btn{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 120px;
+}
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 50%;
+    
+}
+
+/* this for abm div clear */
+.abm::after{
+    content: '';
+    display: table;
+    clear: both;
+}

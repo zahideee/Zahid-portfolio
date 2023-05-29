@@ -1,0 +1,29 @@
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: .8rem;
+
+}
+.footer-menu a{
+    display: block;
+    margin: 16px 0;
+    font-size: 1rem;
+}
+.footer-menu a:hover{
+    color: gold;
+}
+.love{
+    color: red;
+    
+}
+
+/* this for footer clear */
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
