@@ -1,3 +1,3 @@
 # Zahid-Portfolio-Demo
 
-https://zahideee.github.io/Resturant-Demo/
+https://zahideee.github.io/Zahid-portfolio/
